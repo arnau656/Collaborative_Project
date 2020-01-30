@@ -1,0 +1,15 @@
+@import "variables";
+@import "style";
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  font-family: $font-family !important;
+}
+
+.navbar{
+  margin: 0 !important;
+  background-color: $colorAzul !important;
+  text-decoration: none !important;
+}
