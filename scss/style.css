@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  background-color: #ffffff;
+}
+
+header .navbar-dark {
+  color: #e9e9e9 !important;
+  list-style: none;
+  background-color: #002248;
+}
+
+header a:hover {
+  color: #585858 !important;
+}
+
+header a {
+  color: #e9e9e9 !important;
+}
+
+header .active:hover {
+  color: #585858;
+}
+
+header u {
+  text-decoration: none;
+}
+
+.card-boy {
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
