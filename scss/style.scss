@@ -1,0 +1,31 @@
+@import "variables";
+
+body{
+  background-color: $colorFondo;
+}
+
+header {
+  .navbar-dark {
+    color: $colorGrisFlojo !important;
+    list-style: none;
+    background-color: $colorAzul;
+  }
+
+  a:hover {
+    color: $colorGris !important;
+  }
+
+  a {
+    color: $colorGrisFlojo !important;
+  }
+
+  .active:hover {
+    color: $colorGris;
+  }
+
+  u{
+    text-decoration: none;
+  }
+}
+
+
