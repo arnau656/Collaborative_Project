@@ -1,14 +1,25 @@
 @import "variables";
 @import "style";
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 * {
-  font-family: $font-family !important;
+  font-family: 'Roboto', sans-serif !important;
+}
 
+a{
+  text-decoration: none !important;
+  color: $colorGrisfort !important;
+}
+
+.btn-primary{
+  background-color: $colorRojo !important;
+  border-color: $colorGrisFlojo !important;
+  color: $colorFondo !important;
 }
 
 body {
+  background-color: $colorFondo !important;
   max-width: 1450px;
 }
 
@@ -89,6 +100,7 @@ body {
     padding: 10px;
   }
 }
+
 
 .ml-1 {
   margin-left: (16px) !important;
